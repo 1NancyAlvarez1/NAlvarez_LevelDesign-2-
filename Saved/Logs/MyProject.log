@@ -1320,3 +1320,401 @@ Sampler Limit: 32
 [2025.10.03-19.45.32:532][950]LogWorldPartition: Display: WorldPartition initialize took 41.347 ms (total: 131.496 ms)
 [2025.10.03-19.45.45:938][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
 [2025.10.03-19.45.47:146][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.03-19.46.16:319][660]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.03-19.46.17:360][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.10.03-19.46.17:363][720]Cmd: MAP LOAD FILE="../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/NAlvarez_SchoolLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.03-19.46.17:388][720]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-19.46.17:389][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.46.17:389][720]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson
+[2025.10.03-19.46.17:425][720]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.03-19.46.17:429][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.10.03-19.46.17:433][720]LogWorld: UWorld::CleanupWorld for NAlvarez_SchoolLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-19.46.17:433][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.46.17:433][720]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NAlvarez_SchoolLevel.NAlvarez_SchoolLevel
+[2025.10.03-19.46.17:472][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.10.03-19.46.17:502][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.10.03-19.46.17:504][720]LogStreaming: Display: FlushAsyncLoading(636): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-19.46.17:543][720]LogAudio: Display: Audio Device (ID: 1) registered with world 'NAlvarez_SchoolLevel'.
+[2025.10.03-19.46.17:544][720]LogChaosDD: Creating Chaos Debug Draw Scene for world NAlvarez_SchoolLevel
+[2025.10.03-19.46.17:546][720]LogWorldPartition: ULevel::OnLevelLoaded(NAlvarez_SchoolLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.03-19.46.17:546][720]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.03-19.46.17:546][720]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NAlvarez_SchoolLevel.NAlvarez_SchoolLevel, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.03-19.46.18:059][720]LogMaterial: Warning: [AssetLog] C:\Users\Alvar\Downloads\Level Design\NAlvarez_LevelDesign(2)\Content\Suburban_Household\VOL7_Kitchen\Materials\MM_MasterMaterial_01a.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property BaseColor
+	(Node TextureSampleParameter2D) R = Roughness | G = Metalness | B = Ambient Occlusion | A = Other > Found NULL, requires Texture2D
+	(Node MakeMaterialAttributes) Error on property Metallic
+	(Node MakeMaterialAttributes) Error on property Specular
+	(Node MakeMaterialAttributes) Error on property Roughness
+	(Node MakeMaterialAttributes) Error on property AmbientOcclusion
+
+[2025.10.03-19.46.18:161][720]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.10.03-19.46.18:430][720]LogWorldPartition: Display: WorldPartition initialize took 883.485 ms (total: 1.01 sec)
+[2025.10.03-19.46.18:504][720]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.03-19.46.18:539][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.10.03-19.46.18:547][720]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.03-19.46.18:552][720]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.865ms to complete.
+[2025.10.03-19.46.18:554][720]LogSlate: Window 'Open Level' being destroyed
+[2025.10.03-19.46.19:127][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/9/DA/PF00VHOK08C2KCC3D3516R, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:127][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/RQ/31TIA9CHUL7MZ9K346MV2U, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:128][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/0/1D/5LTDTHC0W34M8LOY6W2S5Q, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:128][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/1/NG/GIA2X0R9A9UBJZHXF3ZL58, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:129][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/D/JK/ZUY2UXBFQDG60R17ERGNT5, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:129][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/8H/T5VCVW2XXIO7OLKFTIED7X, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:129][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/9/FG/JOBKIEG0UPC4CFSSL00IXP, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:129][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/4/KA/7QYJZF59CNAFJ378XD89MD, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:129][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/5/K5/LKL2YR2EKZNJXQAVOV0WHE, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:130][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/8/DN/AYIHV8WYF9TKV98TNPEN4U, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:130][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/0/VR/HB10GJ1177VMQTW5FREBFY, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53f was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53f has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53f'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:130][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/0/W6/GQCJ5ERLKY4Y070V73W1U3, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53e was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53e has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53e'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:130][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/1/71/UIQC4YXOYTIYOS3M482NPS, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99e was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99e has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99e'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:131][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/OR/9BVVSHCLSUSBUR4YCEXCL4, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01c was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01c has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01c'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:131][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/4/P2/BJNDE0VJIPDV7OVGCKKEU7, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_09a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_09a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_09a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:131][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/4/W5/KNOTGULNAYYPNW4DOGU407, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_34c was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_34c has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_34c'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:131][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/5/AC/Z4ZBKCS7BRSPMZ9IOBQPP6, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_03e was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_03e has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_03e'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:132][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/5/SV/IW1N4A0ZR3CS9CW46INJZP, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knickknacks_05c was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knickknacks_05c has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knickknacks_05c'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:132][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/7/R1/NGOA6H62VFNWK1Y6S53P20, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:132][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/A/ZU/LF1TTRKAQLXDSFJ63AFW0L, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/NN/SM_Knick_Knacks_NN_01d was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/NN/SM_Knick_Knacks_NN_01d has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/NN/SM_Knick_Knacks_NN_01d'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:132][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/C/UR/80WIK1MPBM1VCL94U2CJ9X, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08e was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08e has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08e'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:132][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/D/97/FX118TYUNWDPKQ9N3F1WYT, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01g was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01g has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01g'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:133][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/D/GD/PPNKJ9WHB6HOXP7GFR5K3B, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99b was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99b has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99b'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:133][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/D/GS/6ALB9CPFCULNGT63B1E6OG, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:133][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/E/I6/OM7W71FAJA0ACKYG98B2Q4, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:133][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/E/J2/ZK4N4UTPRJUWWMXOMW4GNJ, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:134][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/5/RP/54I7GN22KG2SQKRY69F2ST, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:134][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/B/W8/Q4UG8XDQDIHT7N81JJZAU3, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:134][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/2/NH/QL0V916ANMARTEVHFPMNH4, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:134][720]LoadErrors: Warning: While trying to load package /Game/_GENERATED/Alvar/Box_25A1A12D, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:134][720]LoadErrors: Warning: While trying to load package /Game/_GENERATED/Alvar/CubeGridToolOutput_3DA75042, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:134][720]LoadErrors: Warning: While trying to load package /Game/_GENERATED/Alvar/CubeGridToolOutput_49D8170B, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:134][720]LoadErrors: Warning: While trying to load package /Game/_GENERATED/Alvar/CubeGridToolOutput_AB280C21, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:135][720]LoadErrors: Warning: While trying to load package /Game/Suburban_Household/VOL7_Kitchen/Materials/MM_MasterMaterial_01a, a dependent package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Dust_01a_M was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Dust_01a_M has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburban_Household/VOL7_Kitchen/Textures/TX_Dust_01a_M'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:135][720]LoadErrors: Warning: While trying to load package /Game/Suburban_Household/VOL7_Kitchen/Materials/MM_MasterMaterial_01a, a dependent package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_ALB was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_ALB has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_ALB'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:135][720]LoadErrors: Warning: While trying to load package /Game/Suburban_Household/VOL7_Kitchen/Materials/MM_MasterMaterial_01a, a dependent package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_NRM was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_NRM has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_NRM'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:136][720]LoadErrors: Warning: While trying to load package /Game/Suburban_Household/VOL7_Kitchen/Materials/MM_MasterMaterial_01a, a dependent package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_RMA was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_RMA has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburban_Household/VOL7_Kitchen/Textures/TX_Fill_01_RMA'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:136][720]LoadErrors: Warning: While trying to load package /Game/Suburban_Household/VOL7_Kitchen/Materials/MF_Dust_01a, a dependent package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Dust_01a_M was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_Dust_01a_M has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburban_Household/VOL7_Kitchen/Textures/TX_Dust_01a_M'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:136][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:136][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Box was not available. Additional explanatory information follows:
+FPackageName: Unable to identify a valid mount point associated with skipped package /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Box. The package root is unknown.
+Skipped package /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Box was expected to be found in plugin Blockout Tools, however that plugin is not mounted. [ExplicitlyLoaded = FALSE, Enabled = FALSE].
+[2025.10.03-19.46.19:136][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_03e was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_03e has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_03e'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:137][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:137][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08e was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08e has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_08e'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:137][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_09a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_09a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_09a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:137][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_34c was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_34c has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_34c'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:138][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53e was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53e has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53e'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:138][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53f was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53f has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_53f'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:138][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99b was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99b has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99b'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:138][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99e was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99e has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knick_Knacks_99e'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:139][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knickknacks_05c was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knickknacks_05c has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Knickknacks_05c'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:139][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01c was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01c has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01c'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:139][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01g was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01g has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/LP/SM_Shells_01g'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:139][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/3/J2/DQRLMZ3LY2TRR38ICXSLJH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Meshes/NN/SM_Knick_Knacks_NN_01d was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Meshes/NN/SM_Knick_Knacks_NN_01d has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Meshes/NN/SM_Knick_Knacks_NN_01d'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:139][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/8/YA/BD6ASAL6M1XK6DS2Y0BQBZ, a dependent package /BlockoutToolsPlugin/Materials/MI_BlockoutTools_Grid was not available. Additional explanatory information follows:
+FPackageName: Unable to identify a valid mount point associated with skipped package /BlockoutToolsPlugin/Materials/MI_BlockoutTools_Grid. The package root is unknown.
+Skipped package /BlockoutToolsPlugin/Materials/MI_BlockoutTools_Grid was expected to be found in plugin Blockout Tools, however that plugin is not mounted. [ExplicitlyLoaded = FALSE, Enabled = FALSE].
+[2025.10.03-19.46.19:140][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/8/YA/BD6ASAL6M1XK6DS2Y0BQBZ, a dependent package /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Box was not available. Additional explanatory information follows:
+FPackageName: Unable to identify a valid mount point associated with skipped package /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Box. The package root is unknown.
+Skipped package /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Box was expected to be found in plugin Blockout Tools, however that plugin is not mounted. [ExplicitlyLoaded = FALSE, Enabled = FALSE].
+[2025.10.03-19.46.19:140][720]LoadErrors: Warning: While trying to load package /Game/__ExternalActors__/NAlvarez_SchoolLevel/B/AD/50IUBMTIP5PYNWOAAEF4WH, a dependent package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Suburbs/VOL21_RetroDecor/Materials/MM_MasterMaterial_Floor_01a'. Perhaps it has been deleted or was not synced?
+
+[2025.10.03-19.46.19:996][722]LogSlate: External Image Picker: DecompressImage failed
+[2025.10.03-19.46.27:411][146]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.03-19.46.27:417][146]LogContentBundle: [NAlvarez_SchoolLevel(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.10.03-19.46.27:417][146]LogWorldPartition: Display: GenerateStreaming for 'NAlvarez_SchoolLevel' started...
+[2025.10.03-19.46.27:425][146]LogWorldPartition: Display: GenerateStreaming for 'NAlvarez_SchoolLevel' took 7.333 ms
+[2025.10.03-19.46.27:425][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.03-19.46.27:429][146]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.10.03-19.46.27:429][146]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.10.03-19.46.27:429][146]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NAlvarez_SchoolLevel
+[2025.10.03-19.46.27:559][146]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.10.03-19.46.27:600][146]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 41.436 ms
+[2025.10.03-19.46.27:601][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.171296s)
+[2025.10.03-19.46.27:601][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NAlvarez_SchoolLevel.NAlvarez_SchoolLevel to /Game/UEDPIE_0_NAlvarez_SchoolLevel.NAlvarez_SchoolLevel (0.171349s)
+[2025.10.03-19.46.27:635][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.03-19.46.27:637][146]LogChaosDD: Creating Chaos Debug Draw Scene for world NAlvarez_SchoolLevel
+[2025.10.03-19.46.27:639][146]LogWorldPartition: ULevel::OnLevelLoaded(NAlvarez_SchoolLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.10.03-19.46.27:639][146]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.03-19.46.27:639][146]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_NAlvarez_SchoolLevel.NAlvarez_SchoolLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.03-19.46.27:639][146]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.10.03-19.46.27:690][146]LogWorldPartition: Display: WorldPartition initialize took 51.214 ms (total: 1.06 sec)
+[2025.10.03-19.46.27:690][146]LogPlayLevel: PIE: World Init took: (0.053807s)
+[2025.10.03-19.46.27:692][146]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.03-19.46.27:692][146]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.03-19.46.27:692][146]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.03-19.46.27:692][146]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.03-19.46.27:692][146]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.03-19.46.27:692][146]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.03-19.46.27:692][146]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.03-19.46.27:692][146]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.03-19.46.27:692][146]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.03-19.46.27:692][146]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.03-19.46.27:692][146]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.03-19.46.27:692][146]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.03-19.46.27:696][146]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.03-19.46.27:780][146]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.10.03-19.46.27:780][146]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.03-19.46.27:780][146]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.03-19.46.27:780][146]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.03-19.46.27:780][146]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.03-19.46.27:780][146]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.03-19.46.27:784][146]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.03-19.46.27:784][146]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.03-19.46.27:784][146]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.03-19.46.27:784][146]LogAudio: Display: Audio Device (ID: 2) registered with world 'NAlvarez_SchoolLevel'.
+[2025.10.03-19.46.27:784][146]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.03-19.46.27:789][146]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.03-19.46.27:792][146]LogWorld: Bringing World /Game/UEDPIE_0_NAlvarez_SchoolLevel.NAlvarez_SchoolLevel up for play (max tick rate 60) at 2025.10.03-14.46.27
+[2025.10.03-19.46.27:792][146]LogWorld: Bringing up level for play took: 0.002290
+[2025.10.03-19.46.27:795][146]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.10.03-19.46.27:808][146]LogStreaming: Display: FlushAsyncLoading(2046,2047,2038,2039,2040,2041,2042,2043,2044,2045,1669,1670,1671,1672,1673,1674,1675,1676,1677,1678,1679,1680,1681,1682,1683,1684,1685,1686,1687,1688,1689,1690,1691,1692,1693,1694,1695,1696,1697,1698,1699,1700,1701,1702,1703,1704,1705,1706,1707,1708,1709,1710,1711,1712,1713,1714,1715,1716,1717,1718,1719,1720,1721,1722,1723,1724,1725,1726,1727,1728,1729,1730,1731,1732,1733,1734,1735,1736,1737,1738,1739,1740,1741,1742,1743,1744,1745,1746,1747,1748,1749,1750,1751,1752,1753,1754,1755,1756,1757,1758,1759,1760,1761,1762,1763,1764,1765,1766,1767,1768,1769,1770,1771,1772,1773,1774,1775,1776,1777,1778,1779,1780,1781,1782,1783,1784,1785,1786,1787,1788,1789,1790,1791,1792,1793,1794,1795,1796,1797,1798,1799,1800,1801,1802,1803,1804,1805,1806,1807,1808,1809,1810,1811,1812,1813,1814,1815,1816,1817,1818,1819,1820,1821,1822,1823,1824,1825,1826,1827,1828,1829,1830,1831,1832,1833,1834,1835,1836,1837,1838,1839,1840,1841,1842,1843,1844,1845,1846,1847,1848,1849,1850,1851,1852,1853,1854,1855,1856,1857,1858,1859,1860,1861,1862,1863,1864,1865,1866,1867,1868,1869,1870,1871,1872,1873,1874,1875,1876,1877,1878,1879,1880,1881,1882,1883,1884,1885,1886,1887,1888,1889,1890,1891,1892,1893,1894,1895,1896,1897,1898,1899,1900,1901,1902,1903,1904,1905,1906,1907,1908,1909,1910,1911,1912,1913,1914,1915,1916,1917,1918,1919,1920,1921,1922,1923,1924,1925,1926,1927,1928,1929,1930,1931,1932,1933,1934,1935,1936,1937,1938,1939,1940,1941,1942,1943,1944,1945,1946,1947,1948,1949,1950,1951,1952,1953,1954,1955,1956,1957,1958,1959,1960,1961,1962,1963,1964,1965,1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,1654,1655,1656,1657,1658,1659,1660,1661,1662,1663,1664,1665,1666,1667,1668,1392,1393,1394,1395,1396,1397,1398,1399,1400,1401,1402,1403,1404,1405,1406,1407,1408,1409,1410,1411,1412,1413,1414,1415,1416,1417,1418,1419,1420,1421,1422,1423,1424,1425,1426,1427,1428,1429,1430,1431,1432,1433,1434,1435,1436,1437,1438,1439,1440,1441,1442,1443,1444,1445,1446,1447,1448,1449,1450,1451,1452,1453,1454,1455,1456,1457,1458,1459,1460,1461,1462,1463,1464,1465,1466,1467,1468,1469,1470,1471,1472,1473,1474,1475,1476,1477,1478,1479,1480,1481,1482,1483,1484,1485,1486,1487,1488,1489,1490,1491,1492,1493,1494,1495,1496,1497,1498,1499,1500,1501,1502,1503,1504,1505,1506,1507,1508,1509,1510,1511,1512,1513,1514,1515,1516,1517,1518,1519,1520,1521,1522,1523,1524,1525,1526,1527,1528,1529,1530,1531,1532,1533,1534,1535,1536,1537,1538,1539,1540,1541,1542,1543,1544,1545,1546,1547,1548,1549,1550,1551,1552,1553,1554,1555,1556,1557,1558,1559,1560,1561,1562,1563,1564,1565,1566,1567,1568,1569,1570,1571,1572,1573,1574,1575,1576,1577,1578,1579,1580,1581,1582,1583,1584,1585,1586,1587,1588,1589,1590,1591,1592,1593,1594,1595,1596,1597,1598,1599,1600,1601,1602,1603,1604,1605,1606,1607,1608,1609,1610,1611,1612,1613,1614,1615,1616,1617,1618,1619,1620,1621,1622,1623,1624,1625,1626,1627,1628,1629,1630,1631,1632,1633,1634,1635,1636,1637,1638,1639,1640,1641,1642,1643,1644,1645,1646,1647,1648,1649,1650,1651,1652,1653): 656 QueuedPackages, 0 AsyncPackages
+[2025.10.03-19.46.28:063][146]PIE: Server logged in
+[2025.10.03-19.46.28:066][146]PIE: Play in editor total start time 0.649 seconds.
+[2025.10.03-19.46.39:596][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-19.46.39:596][830]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NAlvarez_SchoolLevel
+[2025.10.03-19.46.39:605][830]LogWorld: UWorld::CleanupWorld for NAlvarez_SchoolLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-19.46.39:606][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.46.39:606][830]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_NAlvarez_SchoolLevel.NAlvarez_SchoolLevel
+[2025.10.03-19.46.39:608][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.03-19.46.39:614][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.46.39:654][830]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.03-19.46.39:655][830]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.03-19.46.39:655][830]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.10.03-19.46.39:659][830]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.10.03-19.46.39:666][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.03-19.46.39:693][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.03-19.46.39:773][831]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.10.03-19.46.44:700][122]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.10.03-19.46.44:751][123]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.10.03-19.46.56:064][791]LogDerivedDataCache: C:/Users/Alvar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-19.47.01:070][ 82]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.10.03-19.47.02:220][138]Cmd: DUPLICATE
+[2025.10.03-19.47.02:220][138]Cmd: ACTOR DUPLICATE
+[2025.10.03-19.47.16:267][960]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.10.03-19.48.29:557][155]Cmd: TRANSACTION UNDO
+[2025.10.03-19.48.29:557][155]LogEditorTransaction: Undo Scale Elements
+[2025.10.03-19.48.45:972][ 61]Cmd: TRANSACTION UNDO
+[2025.10.03-19.48.45:972][ 61]LogEditorTransaction: Undo Scale Elements
+[2025.10.03-19.49.22:571][ 64]Cmd: TRANSACTION UNDO
+[2025.10.03-19.49.22:571][ 64]LogEditorTransaction: Undo Replace component used material
+[2025.10.03-19.49.45:500][385]Cmd: TRANSACTION UNDO
+[2025.10.03-19.49.45:500][385]LogEditorTransaction: Undo Replace component used material
+[2025.10.03-19.50.01:487][277]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.10.03-19.50.08:461][678]Cmd: TRANSACTION UNDO
+[2025.10.03-19.50.08:461][678]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.03-19.50.28:897][800]LogStreaming: Display: FlushAsyncLoading(2048): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-19.50.40:600][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.10.03-19.50.40:610][444]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-19.50.40:691][444]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/9/DA/PF00VHOK08C2KCC3D3516R
+[2025.10.03-19.50.40:691][444]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/PF00VHOK08C2KCC3D3516R9803BD6F4BCF81660FB8239A00DBAA0F.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/9/DA/PF00VHOK08C2KCC3D3516R.uasset'
+[2025.10.03-19.50.40:730][444]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/B/SI/CJWAZXQ6AFLLPJQ9EXW8WV
+[2025.10.03-19.50.40:731][444]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/CJWAZXQ6AFLLPJQ9EXW8WV2449F8154855C4DE55696ABA7F468F80.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/B/SI/CJWAZXQ6AFLLPJQ9EXW8WV.uasset'
+[2025.10.03-19.50.40:743][444]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/8/3L/9U5U6FJY3OH4KERRKE5Z71
+[2025.10.03-19.50.40:743][444]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/9U5U6FJY3OH4KERRKE5Z71356671C84D0E06E5FCD521BCE1A40936.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/8/3L/9U5U6FJY3OH4KERRKE5Z71.uasset'
+[2025.10.03-19.50.40:754][444]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/8/5W/ADML5OG5C47W4IUJ1ZFPLM
+[2025.10.03-19.50.40:754][444]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/ADML5OG5C47W4IUJ1ZFPLM8C64B0E3481A2A95BAC67AA2E14C100E.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/8/5W/ADML5OG5C47W4IUJ1ZFPLM.uasset'
+[2025.10.03-19.50.40:765][444]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/7/S9/WZ22L6M6Y9EA6ROOKCQ9BE
+[2025.10.03-19.50.40:765][444]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/WZ22L6M6Y9EA6ROOKCQ9BEB193179B4C640E238DD3C7A52C4E56D4.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/7/S9/WZ22L6M6Y9EA6ROOKCQ9BE.uasset'
+[2025.10.03-19.50.40:779][444]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.142 ms
+[2025.10.03-19.50.40:840][444]LogContentValidation: Display: Starting to validate 5 assets
+[2025.10.03-19.50.40:840][444]LogContentValidation: Enabled validators:
+[2025.10.03-19.50.40:840][444]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-19.50.40:840][444]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-19.50.40:840][444]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-19.50.40:840][444]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-19.50.40:840][444]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-19.50.40:840][444]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-19.50.40:841][444]AssetCheck: /Game/NAlvarez_SchoolLevel Validating asset
+[2025.10.03-19.50.40:859][444]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.03-19.50.44:301][651]Cmd: CLOSE_SLATE_MAINFRAME
+[2025.10.03-19.50.44:328][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.03-19.50.44:381][651]LogStall: Shutdown...
+[2025.10.03-19.50.44:381][651]LogStall: Shutdown complete.
+[2025.10.03-19.50.44:441][651]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2025.10.03-19.50.44:444][651]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.10.03-19.50.44:648][652]Cmd: QUIT_EDITOR
+[2025.10.03-19.50.44:648][653]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.03-19.50.44:659][653]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.03-19.50.44:660][653]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.03-19.50.44:660][653]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.03-19.50.44:716][653]LogWorld: UWorld::CleanupWorld for NAlvarez_SchoolLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-19.50.44:726][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.50.44:726][653]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NAlvarez_SchoolLevel.NAlvarez_SchoolLevel
+[2025.10.03-19.50.44:739][653]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.03-19.50.44:739][653]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.10.03-19.50.44:740][653]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.03-19.50.44:747][653]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-19.50.44:747][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.50.44:753][653]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-19.50.44:753][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.50.44:758][653]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-19.50.44:758][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.50.44:762][653]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.10.03-19.50.44:762][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.03-19.50.44:767][653]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.10.03-19.50.44:768][653]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.03-19.50.44:772][653]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.10.03-19.50.45:260][653]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.03-19.50.45:260][653]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.03-19.50.45:260][653]LogAudio: Display: Audio Device unregistered from world 'NAlvarez_SchoolLevel'.
+[2025.10.03-19.50.45:260][653]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.03-19.50.45:260][653]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.10.03-19.50.45:264][653]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.10.03-19.50.45:273][653]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.03-19.50.45:273][653]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.03-19.50.45:279][653]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.03-19.50.45:281][653]LogExit: Preparing to exit.
+[2025.10.03-19.50.45:373][653]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:392][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:393][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:393][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:393][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:393][653]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.45:393][653]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.03-19.50.46:524][653]LogEditorDataStorage: Deinitializing
+[2025.10.03-19.50.46:699][653]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.03-19.50.46:713][653]LogExit: Editor shut down
+[2025.10.03-19.50.46:716][653]LogExit: Transaction tracking system shut down
+[2025.10.03-19.50.46:991][653]LogExit: Object subsystem successfully closed.
+[2025.10.03-19.50.47:086][653]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.03-19.50.47:177][653]LogMemoryProfiler: Shutdown
+[2025.10.03-19.50.47:177][653]LogNetworkingProfiler: Shutdown
+[2025.10.03-19.50.47:177][653]LoadingProfiler: Shutdown
+[2025.10.03-19.50.47:177][653]LogTimingProfiler: Shutdown
+[2025.10.03-19.50.47:178][653]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.03-19.50.47:178][653]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.03-19.50.47:439][653]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.03-19.50.47:468][653]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.03-19.50.47:468][653]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF4341564-46FD-2DF8-4A6F-2C9D8F885333%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=7ecebfc3406bdc68e1b08189f5efa750%7C2f96382e4a3047729dcf044280dfe5ae%7Cef89a362-9c86-4f4b-85c9-5fb1f242e2d7&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.03-19.50.47:999][653]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.03-19.50.47:999][653]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.03-19.50.47:999][653]RenderDocPlugin: plugin has been unloaded.
+[2025.10.03-19.50.48:010][653]LogXGEController: Cleaning working directory: C:/Users/Alvar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.03-19.50.48:012][653]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.03-19.50.48:012][653]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.03-19.50.48:012][653]LogPakFile: Destroying PakPlatformFile
+[2025.10.03-19.50.48:342][653]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.03-19.50.48:381][653]LogExit: Exiting.
+[2025.10.03-19.50.48:398][653]Log file closed, 10/03/25 14:50:48
