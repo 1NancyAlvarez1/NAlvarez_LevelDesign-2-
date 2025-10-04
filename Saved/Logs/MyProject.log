@@ -1291,3 +1291,286 @@ FPackageName: Skipped package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_
 [2025.10.04-00.55.04:111][500]LogDebuggerCommands: Repeating last play command: Standalone Game
 [2025.10.04-00.55.04:193][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
 [2025.10.04-00.55.49:924][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.04-00.56.41:258][155]LogDerivedDataCache: C:/Users/Alvar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.04-00.56.51:467][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.04-00.56.54:588][477]LogTurnkeySupport: Project requires temp target (GameplayStateTree plugin is enabled)
+[2025.10.04-00.56.54:588][477]LogLauncherProfile: Unable to use promoted target - ../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Binaries/Win64/UnrealGame.target does not exist.
+[2025.10.04-00.56.54:605][477]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/MyProject.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=49743  -project="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/MyProject.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/MyProject.uproject"  -unrealexe="C:\Program Files\UE_5.6\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -build -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Project Build" -clientconfig=Development" -nocompile -nocompileuat ]
+[2025.10.04-00.56.54:614][477]LogStreaming: Display: FlushAsyncLoading(1108): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.04-00.56.54:656][477]UATHelper: Packaging (Windows): Running AutomationTool...
+[2025.10.04-00.56.54:741][479]UATHelper: Packaging (Windows): Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.10.04-00.56.54:890][484]UATHelper: Packaging (Windows): Starting AutomationTool...
+[2025.10.04-00.56.54:911][484]UATHelper: Packaging (Windows): Parsing command line: -ScriptsForProject="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/MyProject.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=49743 -project="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/MyProject.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/MyProject.uproject" -unrealexe="C:\Program Files\UE_5.6\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -build -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Project Build" -clientconfig=Development -nocompile -nocompileuat
+[2025.10.04-00.56.55:071][493]UATHelper: Packaging (Windows): Initializing script modules...
+[2025.10.04-00.56.55:499][519]UATHelper: Packaging (Windows): Total script module initialization time: 0.42 s.
+[2025.10.04-00.56.55:584][524]UATHelper: Packaging (Windows): Using C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2025.10.04-00.56.55:990][549]UATHelper: Packaging (Windows): Executing commands...
+[2025.10.04-00.56.56:117][556]UATHelper: Packaging (Windows): Installed Sdk validity:
+[2025.10.04-00.56.56:128][557]UATHelper: Packaging (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.10.04-00.56.56:128][557]UATHelper: Packaging (Windows): Scanning for envvar changes...
+[2025.10.04-00.56.56:128][557]UATHelper: Packaging (Windows): ... done! 
+[2025.10.04-00.56.56:128][557]UATHelper: Packaging (Windows): Cleaning Temp Paths...
+[2025.10.04-00.56.56:128][557]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2025.10.04-00.56.56:128][557]UATHelper: Packaging (Windows): Setting up ProjectParams for C:\Users\Alvar\Downloads\Level Design\NAlvarez_LevelDesign(2)\MyProject.uproject
+[2025.10.04-00.56.56:530][581]UATHelper: Packaging (Windows): MyProject.uproject is has no code, but is being treated as a code-based project for platforms Android, IOS, Linux, Mac, TVOS, Win64 because: GameplayStateTree plugin is enabled. Creating temporary .Target.cs files.
+[2025.10.04-00.56.57:936][665]UATHelper: Packaging (Windows): ********** BUILD COMMAND STARTED **********
+[2025.10.04-00.56.57:957][667]UATHelper: Packaging (Windows): Running: C:\Program Files\UE_5.6\Engine\Binaries\ThirdParty\DotNet\8.0.300\win-x64\dotnet.exe "C:\Program Files\UE_5.6\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" MyProject Win64 Development -Project="C:\Users\Alvar\Downloads\Level Design\NAlvarez_LevelDesign(2)\MyProject.uproject" -Manifest="C:\Users\Alvar\Downloads\Level Design\NAlvarez_LevelDesign(2)\Intermediate\Build\Manifest.xml"  -remoteini="C:\Users\Alvar\Downloads\Level Design\NAlvarez_LevelDesign(2)"  -skipdeploy  -log="C:\Users\Alvar\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.6\UBA-MyProject-Win64-Development.txt"
+[2025.10.04-00.56.58:495][699]UATHelper: Packaging (Windows): Log file: C:\Users\Alvar\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.6\UBA-MyProject-Win64-Development.txt
+[2025.10.04-00.56.59:101][735]UATHelper: Packaging (Windows): Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Alvar\Downloads\Level Design\NAlvarez_LevelDesign(2)).
+[2025.10.04-00.56.59:112][736]UATHelper: Packaging (Windows): Creating makefile for MyProject (no existing makefile)
+[2025.10.04-00.57.00:656][829]UATHelper: Packaging (Windows): Expecting to find a type to be declared in a module rules named 'BlockoutToolsPlugin' in 'UE5Rules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.  This type must derive from the 'ModuleRules' type defined by UnrealBuildTool.
+[2025.10.04-00.57.00:678][830]UATHelper: Packaging (Windows): Result: Failed (RulesError)
+[2025.10.04-00.57.00:678][830]UATHelper: Packaging (Windows): Total execution time: 2.60 seconds
+[2025.10.04-00.57.00:699][831]UATHelper: Packaging (Windows): Took 2.76s to run dotnet.exe, ExitCode=8
+[2025.10.04-00.57.00:710][832]UATHelper: Packaging (Windows): UnrealBuildTool failed. See log for more details. (C:\Users\Alvar\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_5.6\UBA-MyProject-Win64-Development.txt)
+[2025.10.04-00.57.00:710][832]UATHelper: Packaging (Windows): AutomationTool executed for 0h 0m 5s
+[2025.10.04-00.57.00:710][832]UATHelper: Packaging (Windows): AutomationTool exiting with ExitCode=8 (8)
+[2025.10.04-00.57.00:774][836]UATHelper: Packaging (Windows): BUILD FAILED
+[2025.10.04-00.57.00:780][836]LogStreaming: Display: FlushAsyncLoading(1109): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.04-00.57.00:794][836]PackagingResults: Error: Unknown Error
+[2025.10.04-00.59.24:448][562]LogWindows: LaunchURL https://dmkarpukhin.com/blockout-tools-plugin/documentation/
+[2025.10.04-00.59.29:507][633]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.04-00.59.29:617][638]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.10.04-00.59.30:573][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.10.04-00.59.37:838][ 90]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.10.04-01.00.44:550][972]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 358.822327
+[2025.10.04-01.00.44:669][979]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.04-01.00.44:669][979]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 358.923218, Update Interval: 318.648041
+[2025.10.04-01.00.52:343][431]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.10.04-01.00.52:814][454]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.10.04-01.02.43:693][111]LogStreaming: Display: FlushAsyncLoading(1110): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: ================================================
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Total job queries 571, among them cache hits 66 (11.56%), DDC hits 423 (74.08%), Duplicates 71 (12.43%)
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Tracking 434 distinct input hashes that result in 312 distinct outputs (71.89%)
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: RAM used: 4.00 MiB of 819.20 MiB budget. Usage: 0.49%
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Shaders Compiled: 11
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Jobs assigned 11, completed 11 (100%)
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Average time worker was idle: 0.98 s
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.04 s
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Job execution time: average 1.01 s, max 1.74 s
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Job life time (pending + execution): average 1.04 s, max 1.78
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Shader code size: total 102.895 KiB, numShaders 11, average 9.354 KiB, min 6.406 KiB, max 13.738 KiB
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.51 s
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.10.04-01.03.51:533][139]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Average processing rate: 2.44 jobs/sec
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Total thread time: 9.03 s
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Total thread preprocess time: 13.424 s
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Percentage time preprocessing: 148.66%
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Effective parallelization: 2.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.250530
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 1.23 sec, max 1.32 sec, min 1.09 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.62 sec, max 0.68 sec, min 0.51 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.55 sec, max 0.63 sec, min 0.49 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 54.26% of total time (compiled    4 times, average 1.23 sec, max 1.32 sec, min 1.09 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.39% of total time (compiled    4 times, average 0.62 sec, max 0.68 sec, min 0.51 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.35% of total time (compiled    3 times, average 0.55 sec, max 0.63 sec, min 0.49 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display:                                                 FLumenCardPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: === Material stats ===
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Materials Translated:    181
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Material Translation Only: 0.07 s (46%)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: Material Cache Hits: 55 (30%)
+[2025.10.04-01.03.51:534][139]LogShaderCompilers: Display: ================================================
+[2025.10.04-01.05.46:993][485]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.04-01.05.47:293][486]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.47:470][486]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.47:740][486]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.47:740][486]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.47:847][487]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.47:849][487]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.47:852][487]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.47:852][487]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.47:862][487]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.47:863][487]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.47:878][487]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.47:878][487]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.47:946][488]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.47:947][488]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.47:950][488]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.47:950][488]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.47:959][488]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.47:960][488]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.47:962][488]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.47:962][488]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.48:063][489]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.48:065][489]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.48:067][489]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.48:067][489]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.48:077][489]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.48:079][489]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.48:081][489]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.48:081][489]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.48:237][490]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.48:238][490]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.48:240][490]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.48:240][490]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.52:503][490]LogSlate: Window 'Import Content' being destroyed
+[2025.10.04-01.05.52:604][490]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.52:604][490]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:123][491]LogSlate: Window 'Import Content' being destroyed
+[2025.10.04-01.05.56:152][491]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:153][491]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:187][492]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:188][492]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:191][492]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:191][492]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.56:201][492]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:202][492]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:205][492]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:205][492]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.56:283][493]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:284][493]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:287][493]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:287][493]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.56:297][493]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:300][493]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:302][493]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:302][493]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.56:422][494]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:423][494]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:426][494]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:426][494]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.56:437][494]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:438][494]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:441][494]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:441][494]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.56:603][495]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:605][495]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:608][495]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:608][495]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.56:616][495]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:617][495]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:621][495]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:621][495]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.05.56:825][496]LogInterchangeEngine: [Pending] Importing
+[2025.10.04-01.05.56:826][496]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.10.04-01.05.56:831][496]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.10.04-01.05.56:831][496]LogInterchangeEngine: [Success] Import Done
+[2025.10.04-01.06.06:736][954]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 681.008118
+[2025.10.04-01.06.06:851][961]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.04-01.06.06:851][962]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 681.106567, Update Interval: 333.124786
+[2025.10.04-01.06.23:564][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.10.04-01.06.23:584][924]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-01.06.23:625][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Doorway_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:635][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Doorway_64.Blockout_Doorway_64]
+[2025.10.04-01.06.23:635][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Doorway_64]
+[2025.10.04-01.06.23:657][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Doorway_64
+[2025.10.04-01.06.23:657][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Doorway_64FF97AEAF414A767D864B77B3E0CF3CEC.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Doorway_64.uasset'
+[2025.10.04-01.06.23:662][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Cylinder_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:664][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Cylinder_64.Blockout_Cylinder_64]
+[2025.10.04-01.06.23:664][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Cylinder_64]
+[2025.10.04-01.06.23:673][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Cylinder_64
+[2025.10.04-01.06.23:673][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Cylinder_647E7353B649C7864760402F826E276728.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Cylinder_64.uasset'
+[2025.10.04-01.06.23:674][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Corner_Ramp_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:676][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Corner_Ramp_64.Blockout_Corner_Ramp_64]
+[2025.10.04-01.06.23:676][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Corner_Ramp_64]
+[2025.10.04-01.06.23:685][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Corner_Ramp_64
+[2025.10.04-01.06.23:685][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Corner_Ramp_6463B6AA554D3507D0B61084A42736C2C6.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Corner_Ramp_64.uasset'
+[2025.10.04-01.06.23:687][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Corner_Curved_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:689][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Corner_Curved_64.Blockout_Corner_Curved_64]
+[2025.10.04-01.06.23:689][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Corner_Curved_64]
+[2025.10.04-01.06.23:698][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Corner_Curved_64
+[2025.10.04-01.06.23:698][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Corner_Curved_6434D697BB40B73EECE8BFB0AF0E4FBDF5.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Corner_Curved_64.uasset'
+[2025.10.04-01.06.23:699][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Cone_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:700][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Cone_64.Blockout_Cone_64]
+[2025.10.04-01.06.23:700][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Cone_64]
+[2025.10.04-01.06.23:709][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Cone_64
+[2025.10.04-01.06.23:709][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Cone_6482C746E74C225FBEDD8AB1A31D47ADE2.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Cone_64.uasset'
+[2025.10.04-01.06.23:710][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Box_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:712][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Box_64.Blockout_Box_64]
+[2025.10.04-01.06.23:712][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Box_64]
+[2025.10.04-01.06.23:712][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Resources/Blockout_Box_64" FILE="../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Box_64.uasset" SILENT=true
+[2025.10.04-01.06.23:722][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Box_64
+[2025.10.04-01.06.23:722][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Box_640758702B407D0ADC828660A65AF0EF85.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Box_64.uasset'
+[2025.10.04-01.06.23:723][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/BlockoutToolsIcon64] ([1] browsable assets)...
+[2025.10.04-01.06.23:725][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/BlockoutToolsIcon64.BlockoutToolsIcon64]
+[2025.10.04-01.06.23:725][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/BlockoutToolsIcon64]
+[2025.10.04-01.06.23:734][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/BlockoutToolsIcon64
+[2025.10.04-01.06.23:734][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BlockoutToolsIcon640A41239043EF2EF1CD6D388750BFABBB.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/BlockoutToolsIcon64.uasset'
+[2025.10.04-01.06.23:735][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/BlockoutToolsEditorIcon16] ([1] browsable assets)...
+[2025.10.04-01.06.23:737][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/BlockoutToolsEditorIcon16.BlockoutToolsEditorIcon16]
+[2025.10.04-01.06.23:737][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/BlockoutToolsEditorIcon16]
+[2025.10.04-01.06.23:745][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/BlockoutToolsEditorIcon16
+[2025.10.04-01.06.23:745][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BlockoutToolsEditorIcon1644979AA84738699ED11D7892EDCA8C68.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/BlockoutToolsEditorIcon16.uasset'
+[2025.10.04-01.06.23:746][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Railing_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:747][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Railing_64.Blockout_Railing_64]
+[2025.10.04-01.06.23:748][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Railing_64]
+[2025.10.04-01.06.23:755][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Railing_64
+[2025.10.04-01.06.23:755][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Railing_649841B6D94DDA711B06A24DB13C4B5656.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Railing_64.uasset'
+[2025.10.04-01.06.23:756][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Ramp_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:757][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Ramp_64.Blockout_Ramp_64]
+[2025.10.04-01.06.23:757][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Ramp_64]
+[2025.10.04-01.06.23:767][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Ramp_64
+[2025.10.04-01.06.23:767][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Ramp_64609BD2854C7EBFEBDD5A23976FAB35A5.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Ramp_64.uasset'
+[2025.10.04-01.06.23:768][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Skewbox_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:770][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Skewbox_64.Blockout_Skewbox_64]
+[2025.10.04-01.06.23:770][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Skewbox_64]
+[2025.10.04-01.06.23:778][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Skewbox_64
+[2025.10.04-01.06.23:779][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Skewbox_6472E02B9C477E6C7CE90C17A335713617.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Skewbox_64.uasset'
+[2025.10.04-01.06.23:780][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Sphere_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:782][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Sphere_64.Blockout_Sphere_64]
+[2025.10.04-01.06.23:782][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Sphere_64]
+[2025.10.04-01.06.23:791][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Sphere_64
+[2025.10.04-01.06.23:791][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Sphere_6486F728B244F32D925E9C44930086897B.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Sphere_64.uasset'
+[2025.10.04-01.06.23:792][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Stairs_Curved_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:793][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Stairs_Curved_64.Blockout_Stairs_Curved_64]
+[2025.10.04-01.06.23:793][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Stairs_Curved_64]
+[2025.10.04-01.06.23:802][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Stairs_Curved_64
+[2025.10.04-01.06.23:802][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Stairs_Curved_646344181C42801E3351907CAA493DD2AF.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Stairs_Curved_64.uasset'
+[2025.10.04-01.06.23:803][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Stairs_Linear_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:804][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Stairs_Linear_64.Blockout_Stairs_Linear_64]
+[2025.10.04-01.06.23:805][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Stairs_Linear_64]
+[2025.10.04-01.06.23:813][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Stairs_Linear_64
+[2025.10.04-01.06.23:813][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Stairs_Linear_641B97F7474476653AFD65E0B85FAE6578.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Stairs_Linear_64.uasset'
+[2025.10.04-01.06.23:814][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Tube_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:816][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Tube_64.Blockout_Tube_64]
+[2025.10.04-01.06.23:816][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Tube_64]
+[2025.10.04-01.06.23:824][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Tube_64
+[2025.10.04-01.06.23:824][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Tube_64036D58FB4A60AF495A020A87D200036B.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Tube_64.uasset'
+[2025.10.04-01.06.23:826][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Blockout_Window_64] ([1] browsable assets)...
+[2025.10.04-01.06.23:829][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Blockout_Window_64.Blockout_Window_64]
+[2025.10.04-01.06.23:829][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Blockout_Window_64]
+[2025.10.04-01.06.23:838][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Blockout_Window_64
+[2025.10.04-01.06.23:838][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Blockout_Window_64F3421334466BB4A718135D97F97BAD19.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Blockout_Window_64.uasset'
+[2025.10.04-01.06.23:839][924]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Resources/Icon128] ([1] browsable assets)...
+[2025.10.04-01.06.23:842][924]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Resources/Icon128.Icon128]
+[2025.10.04-01.06.23:842][924]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Resources/Icon128]
+[2025.10.04-01.06.23:842][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fab/Resources/Icon128" FILE="../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Icon128.uasset" SILENT=true
+[2025.10.04-01.06.23:850][924]LogSavePackage: Moving output files for package: /Game/Fab/Resources/Icon128
+[2025.10.04-01.06.23:850][924]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Icon1283CA0BAC941430C1F1627EF92FDFFB5C8.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/Fab/Resources/Icon128.uasset'
+[2025.10.04-01.06.23:860][924]LogFileHelpers: InternalPromptForCheckoutAndSave took 276.387 ms
+[2025.10.04-01.06.23:892][924]LogContentValidation: Display: Starting to validate 17 assets
+[2025.10.04-01.06.23:892][924]LogContentValidation: Enabled validators:
+[2025.10.04-01.06.23:893][924]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-01.06.23:893][924]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-01.06.23:893][924]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-01.06.23:893][924]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-01.06.23:893][924]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-01.06.23:893][924]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Doorway_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Cylinder_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Corner_Ramp_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Corner_Curved_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Cone_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Box_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/BlockoutToolsIcon64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/BlockoutToolsEditorIcon16 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Railing_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Ramp_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Skewbox_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Sphere_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Stairs_Curved_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Stairs_Linear_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Tube_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Blockout_Window_64 Validating asset
+[2025.10.04-01.06.23:894][924]AssetCheck: /Game/Fab/Resources/Icon128 Validating asset
+[2025.10.04-01.06.23:914][924]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/SourceControl/UncontrolledChangelists.json
