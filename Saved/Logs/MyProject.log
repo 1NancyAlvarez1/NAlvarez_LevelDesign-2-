@@ -2049,3 +2049,295 @@ FPackageName: Skipped package /Game/Suburban_Household/VOL7_Kitchen/Textures/TX_
 [2025.10.04-00.24.24:423][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.10.04-00.24.24:454][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
 [2025.10.04-00.24.24:723][511]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.10.04-00.25.39:271][829]LogLandscape: Mark Modified Landscapes Dirty : 0 proxies made dirty.
+[2025.10.04-00.25.39:273][829]LogLandscape: Build Grass: 0 landscape proxies built.
+[2025.10.04-00.25.39:273][829]LogLandscape: Build Physical Materials: 0 landscape proxies built
+[2025.10.04-00.25.39:273][829]LogLandscape: Build Nanite: 0 landscape proxies built.
+[2025.10.04-00.25.39:273][829]LogLandscape: Build All operation done.
+[2025.10.04-00.25.39:273][829]Cmd: MAP REBUILD ALLVISIBLE
+[2025.10.04-00.25.39:281][829]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2025.10.04-00.25.39:289][829]LogWorld: UWorld::CleanupWorld for NAlvarez_SchoolLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.04-00.25.39:353][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.04-00.25.39:353][829]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NAlvarez_SchoolLevel.NAlvarez_SchoolLevel
+[2025.10.04-00.25.39:367][829]LogChaosDD: Creating Chaos Debug Draw Scene for world NAlvarez_SchoolLevel
+[2025.10.04-00.25.39:480][829]LogWorldPartition: ULevel::OnLevelLoaded(NAlvarez_SchoolLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.04-00.25.39:480][829]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.04-00.25.39:480][829]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NAlvarez_SchoolLevel.NAlvarez_SchoolLevel, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.04-00.25.39:508][829]LogStreaming: Display: FlushAsyncLoading(6501): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.04-00.25.39:515][829]LogWorldPartition: Display: WorldPartition initialize took 35.678 ms (total: 1.39 sec)
+[2025.10.04-00.25.41:531][829]LogSlate: Window 'Build HLODs' being destroyed
+[2025.10.04-00.25.41:581][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.10.04-00.25.43:409][829]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.25.43:419][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.25.43:483][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.04-00.25.43:511][829]LogSavePackage: Moving output files for package: /Game/NAlvarez_SchoolLevel
+[2025.10.04-00.25.43:511][829]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/NAlvarez_SchoolLevel2498004749E8CD78158E4783EBD7613F.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/NAlvarez_SchoolLevel.umap'
+[2025.10.04-00.25.43:524][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.25.43:537][829]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS
+[2025.10.04-00.25.43:537][829]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/4O9FL26TRYZYWGA6XSCZFSA10E5DE849BC32290CB68A8B3CF24A26.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS.uasset'
+[2025.10.04-00.25.43:540][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 16.685 ms (total: 628.158 ms)
+[2025.10.04-00.25.43:542][829]LogFileHelpers: Saving map 'NAlvarez_SchoolLevel' took 0.121
+[2025.10.04-00.25.43:542][829]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.04-00.25.43:583][829]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.04-00.25.43:583][829]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.04-00.25.43:625][829]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.04-00.25.43:625][829]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BP_FirstPersonCharacterB7C5F62A46A750F179882D8DEC964424.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.04-00.25.43:638][829]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS
+[2025.10.04-00.25.43:639][829]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/4O9FL26TRYZYWGA6XSCZFS944E00D44F366D2A514F8B9DA06CD03B.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS.uasset'
+[2025.10.04-00.25.43:642][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 223.157 ms (total: 851.315 ms)
+[2025.10.04-00.25.43:703][829]LogWorld: UWorld::CleanupWorld for NAlvarez_SchoolLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.04-00.25.43:703][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.04-00.25.43:703][829]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NAlvarez_SchoolLevel.NAlvarez_SchoolLevel
+[2025.10.04-00.25.43:751][829]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.04-00.25.43:796][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.10.04-00.25.43:803][829]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.10.04-00.25.43:805][829]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.10.04-00.25.43:893][829]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.10.04-00.25.43:893][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.04-00.25.43:944][829]LogWorldPartitionEditor: Display: Running commandlet: C:\Program Files\UE_5.6\Engine\Binaries\Win64\UnrealEditor.exe  "../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/MyProject.uproject" -BaseDir="C:/Program Files/UE_5.6/Engine/Binaries/Win64/" -Unattended -RunningFromUnrealEd -AbsLog="C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Logs/WorldPartition/WorldPartitionHLODsBuilder-00006464-2025-10-03T19.25.43.943Z.log" /Game/NAlvarez_SchoolLevel -run=WorldPartitionBuilderCommandlet -Builder=WorldPartitionHLODsBuilder -SetupHLODs -BuildHLODs -AllowCommandletRendering
+[2025.10.04-00.26.24:354][829]LogWorldPartitionEditor: Display: Commandlet executed successfully.
+[2025.10.04-00.26.24:354][829]LogWorldPartitionEditor: Display: Detailed output can be found in C:/Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/Logs/WorldPartition/WorldPartitionHLODsBuilder-00006464-2025-10-03T19.25.43.943Z.log
+[2025.10.04-00.26.24:390][829]Cmd: MAP LOAD FILE="../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/NAlvarez_SchoolLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.04-00.26.24:412][829]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.10.04-00.26.24:413][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.04-00.26.24:458][829]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.04-00.26.24:463][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.10.04-00.26.24:515][829]LogAudio: Display: Audio Device (ID: 1) registered with world 'NAlvarez_SchoolLevel'.
+[2025.10.04-00.26.24:515][829]LogChaosDD: Creating Chaos Debug Draw Scene for world NAlvarez_SchoolLevel
+[2025.10.04-00.26.24:519][829]LogWorldPartition: ULevel::OnLevelLoaded(NAlvarez_SchoolLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.10.04-00.26.24:519][829]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.10.04-00.26.24:519][829]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NAlvarez_SchoolLevel.NAlvarez_SchoolLevel, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.10.04-00.26.24:923][829]LogWorldPartition: Display: WorldPartition initialize took 403.710 ms (total: 1.79 sec)
+[2025.10.04-00.26.25:063][829]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.04-00.26.25:120][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.10.04-00.26.25:135][829]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.04-00.26.25:141][829]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 6.342ms to complete.
+[2025.10.04-00.26.25:146][829]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2025.10.04-00.26.25:198][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.10.04-00.26.28:396][829]LogLevel: Display: Export Material TexCoord Scales took 0.344 seconds.
+[2025.10.04-00.26.28:423][829]TextureStreamingBuild: Display: Build Texture Streaming took 0.029 seconds.
+[2025.10.04-00.26.28:469][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.10.04-00.26.28:490][829]LogStaticLightingSystem: Warning: WorldSettings.bForceNoPrecomputedLighting is true, Skipping Lighting Build!
+[2025.10.04-00.26.28:520][829]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2025.10.04-00.26.28:531][829]MapCheck: Warning: StaticMeshActor_UAID_586C25FBB33C7C8F02_1503045328 More overridden materials (8) on static mesh component than are referenced (6) in source mesh 'Box_25A1A12D' 
+[2025.10.04-00.26.28:533][829]MapCheck: Warning: StaticMeshActor_UAID_586C25FBB33CC89102_1182295816 1 element(s) with zero triangles in static mesh 'CubeGridToolOutput_49D8170B' 
+[2025.10.04-00.26.28:541][829]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 20.84ms to complete.
+[2025.10.04-00.26.28:541][829]LogEditorBuildUtils: Build time 0:49
+[2025.10.04-00.26.28:633][829]LogContentValidation: Display: Starting to validate 3 assets
+[2025.10.04-00.26.28:633][829]LogContentValidation: Enabled validators:
+[2025.10.04-00.26.28:633][829]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.26.28:633][829]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.26.28:633][829]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.26.28:633][829]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.26.28:633][829]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.26.28:633][829]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.26.28:633][829]AssetCheck: /Game/NAlvarez_SchoolLevel Validating asset
+[2025.10.04-00.26.28:633][829]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.10.04-00.26.29:022][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.10.04-00.26.29:163][829]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2061.617188
+[2025.10.04-00.26.29:647][839]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.04-00.26.29:647][840]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2062.082520, Update Interval: 352.979523
+[2025.10.04-00.26.39:291][404]LogSlate: Window 'Message Log' being destroyed
+[2025.10.04-00.26.39:298][404]LogSlate: Window 'Message Log' being destroyed
+[2025.10.04-00.26.43:351][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.04-00.26.44:807][642]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.26.44:816][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.26.44:892][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.04-00.26.44:916][642]LogSavePackage: Moving output files for package: /Game/NAlvarez_SchoolLevel
+[2025.10.04-00.26.44:917][642]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/NAlvarez_SchoolLevel2DEE8B9140BD0946F033ABB750BBB8A6.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/NAlvarez_SchoolLevel.umap'
+[2025.10.04-00.26.44:929][642]LogFileHelpers: All files are already saved.
+[2025.10.04-00.26.44:930][642]LogFileHelpers: Saving map 'NAlvarez_SchoolLevel' took 0.092
+[2025.10.04-00.26.44:966][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 149.676 ms (total: 1.00 sec)
+[2025.10.04-00.26.45:030][643]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.04-00.26.45:031][643]LogContentValidation: Enabled validators:
+[2025.10.04-00.26.45:031][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.26.45:031][643]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.26.45:031][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.26.45:031][643]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.26.45:031][643]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.26.45:031][643]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.26.45:031][643]AssetCheck: /Game/NAlvarez_SchoolLevel Validating asset
+[2025.10.04-00.27.42:667][ 59]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.27.42:722][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.10.04-00.27.43:760][ 59]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.27.43:782][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.27.43:822][ 59]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS
+[2025.10.04-00.27.43:823][ 59]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/4O9FL26TRYZYWGA6XSCZFSFACF6EBF4F9F492C50BBB9BE95562D1A.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS.uasset'
+[2025.10.04-00.27.43:835][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.074 ms (total: 1.05 sec)
+[2025.10.04-00.27.43:905][ 60]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.04-00.27.43:905][ 60]LogContentValidation: Enabled validators:
+[2025.10.04-00.27.43:905][ 60]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.27.43:905][ 60]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.27.43:905][ 60]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.27.43:905][ 60]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.27.43:905][ 60]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.27.43:905][ 60]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.27.43:905][ 60]AssetCheck: /Game/NAlvarez_SchoolLevel Validating asset
+[2025.10.04-00.28.21:932][525]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2025.10.04-00.28.21:933][525]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.10.04-00.28.31:243][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.10.04-00.28.32:602][ 59]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.28.32:652][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.10.04-00.28.34:659][ 59]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.28.34:668][ 59]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2025.10.04-00.28.34:668][ 59]PIE: Warning: PIE failed because map save was canceled
+[2025.10.04-00.28.36:100][137]LogSlate: Window 'Message Log' being destroyed
+[2025.10.04-00.28.36:107][137]LogSlate: Window 'Message Log' being destroyed
+[2025.10.04-00.28.52:380][ 97]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.28.52:421][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.04-00.28.53:682][ 97]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.28.53:692][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.28.53:723][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.04-00.28.53:736][ 97]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.04-00.28.53:737][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.04-00.28.53:789][ 97]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.04-00.28.53:790][ 97]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BP_FirstPersonCharacter725EE6FC4F13F68A250AFAAB074B7785.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.04-00.28.53:805][ 97]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS
+[2025.10.04-00.28.53:806][ 97]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/4O9FL26TRYZYWGA6XSCZFS997F7AAF4BFCE3DE11BE1BBFD4F7469C.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS.uasset'
+[2025.10.04-00.28.53:825][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.432 ms (total: 1.18 sec)
+[2025.10.04-00.28.53:897][ 98]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.04-00.28.53:897][ 98]LogContentValidation: Enabled validators:
+[2025.10.04-00.28.53:897][ 98]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.28.53:897][ 98]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.28.53:897][ 98]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.28.53:897][ 98]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.28.53:897][ 98]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.28.53:897][ 98]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.28.53:897][ 98]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.10.04-00.28.53:897][ 98]AssetCheck: /Game/NAlvarez_SchoolLevel Validating asset
+[2025.10.04-00.29.44:971][704]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.29.45:030][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2025.10.04-00.29.46:245][704]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.29.46:255][704]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.29.46:297][704]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS
+[2025.10.04-00.29.46:298][704]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/4O9FL26TRYZYWGA6XSCZFSDA22455140131959281CF78E1DD89645.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/__ExternalActors__/NAlvarez_SchoolLevel/4/RF/4O9FL26TRYZYWGA6XSCZFS.uasset'
+[2025.10.04-00.29.46:327][704]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.054 ms (total: 1.25 sec)
+[2025.10.04-00.29.46:399][705]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.04-00.29.46:399][705]LogContentValidation: Enabled validators:
+[2025.10.04-00.29.46:399][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.29.46:399][705]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.29.46:399][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.29.46:399][705]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.29.46:399][705]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.29.46:399][705]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.29.46:399][705]AssetCheck: /Game/NAlvarez_SchoolLevel Validating asset
+[2025.10.04-00.31.44:424][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.10.04-00.31.46:688][  1]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.31.46:736][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.10.04-00.31.47:825][  1]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.31.47:834][  1]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.31.47:862][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.04-00.31.47:877][  1]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.04-00.31.47:877][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.04-00.31.47:916][  1]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.04-00.31.47:917][  1]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BP_FirstPersonCharacter4A929AD04F362B1BCFF2908C9668EFCB.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.04-00.31.47:936][  1]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.996 ms (total: 1.36 sec)
+[2025.10.04-00.31.47:999][  2]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.04-00.31.47:999][  2]LogContentValidation: Enabled validators:
+[2025.10.04-00.31.47:999][  2]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.31.47:999][  2]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.31.47:999][  2]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.31.47:999][  2]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.31.47:999][  2]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.31.47:999][  2]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.31.47:999][  2]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.10.04-00.32.55:151][942]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2447.602051
+[2025.10.04-00.32.56:153][945]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.04-00.32.56:153][945]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2448.269287, Update Interval: 320.477295
+[2025.10.04-00.33.12:538][829]LogEditorTransaction: Undo Edit Attenuation Radius
+[2025.10.04-00.33.12:549][829]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.BP_FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2025.10.04-00.33.20:187][258]LogEditorTransaction: Undo Edit Inner Cone Angle
+[2025.10.04-00.33.20:197][258]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.BP_FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2025.10.04-00.33.26:432][614]LogEditorTransaction: Undo Edit Source Radius
+[2025.10.04-00.33.26:443][614]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.BP_FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2025.10.04-00.33.44:266][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.10.04-00.33.45:645][724]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.33.45:691][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.10.04-00.33.47:089][724]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.33.47:112][724]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.33.47:137][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.04-00.33.47:144][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.04-00.33.47:145][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.04-00.33.47:185][724]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.04-00.33.47:185][724]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BP_FirstPersonCharacter9A24C39B417AAB8D9FEA2994108CBF26.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.04-00.33.47:196][724]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.337 ms (total: 1.44 sec)
+[2025.10.04-00.33.47:257][725]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.04-00.33.47:257][725]LogContentValidation: Enabled validators:
+[2025.10.04-00.33.47:257][725]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.33.47:257][725]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.33.47:257][725]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.33.47:257][725]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.33.47:257][725]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.33.47:257][725]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.33.47:257][725]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.10.04-00.34.45:842][140]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.10.04-00.34.51:067][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.10.04-00.35.02:752][ 48]LogEditorTransaction: Undo Edit Source Length
+[2025.10.04-00.35.02:761][ 48]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.BP_FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2025.10.04-00.35.18:284][955]LogEditorTransaction: Undo Edit Intensity
+[2025.10.04-00.35.18:293][955]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.BP_FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2025.10.04-00.35.18:997][981]Cmd: TRANSACTION REDO
+[2025.10.04-00.35.18:997][981]LogEditorTransaction: Redo Edit Intensity
+[2025.10.04-00.35.23:305][234]LogEditorTransaction: Undo Edit Intensity
+[2025.10.04-00.35.23:315][234]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_11:PersistentLevel.BP_FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2025.10.04-00.35.24:016][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.10.04-00.35.25:762][347]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.35.25:805][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.04-00.35.27:311][347]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.35.27:340][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.35.27:369][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.04-00.35.27:378][347]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.04-00.35.27:378][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.04-00.35.27:418][347]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.04-00.35.27:418][347]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BP_FirstPersonCharacter367C81374268C682D38EC184E94817FD.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.04-00.35.27:430][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.418 ms (total: 1.53 sec)
+[2025.10.04-00.35.27:497][348]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.04-00.35.27:498][348]LogContentValidation: Enabled validators:
+[2025.10.04-00.35.27:498][348]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.35.27:498][348]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.35.27:498][348]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.35.27:498][348]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.35.27:498][348]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.35.27:498][348]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.35.27:498][348]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.10.04-00.36.01:197][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.04-00.36.03:165][103]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.36.03:205][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.10.04-00.36.04:545][103]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.36.04:570][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.36.04:598][103]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.04-00.36.04:606][103]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.04-00.36.04:606][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.04-00.36.04:645][103]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.04-00.36.04:645][103]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BP_FirstPersonCharacterA55361E1449CB2DFD4DDD68E01D1BB4D.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.04-00.36.04:657][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.850 ms (total: 1.62 sec)
+[2025.10.04-00.36.04:719][104]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.04-00.36.04:720][104]LogContentValidation: Enabled validators:
+[2025.10.04-00.36.04:720][104]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.36.04:720][104]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.36.04:720][104]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.36.04:720][104]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.36.04:720][104]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.36.04:720][104]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.36.04:720][104]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.10.04-00.36.30:820][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.10.04-00.36.32:171][ 69]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.10.04-00.36.32:217][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.04-00.36.33:525][ 69]LogSlate: Window 'Save Content' being destroyed
+[2025.10.04-00.36.33:535][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.04-00.36.33:557][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.04-00.36.33:572][ 69]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.04-00.36.33:573][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.10.04-00.36.33:611][ 69]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.10.04-00.36.33:611][ 69]LogSavePackage: Moving '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Saved/BP_FirstPersonCharacter2603062545883DE159DB76902A56BB5F.tmp' to '../../../../../Users/Alvar/Downloads/Level Design/NAlvarez_LevelDesign(2)/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.04-00.36.33:629][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.604 ms (total: 1.71 sec)
+[2025.10.04-00.36.33:694][ 70]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.04-00.36.33:694][ 70]LogContentValidation: Enabled validators:
+[2025.10.04-00.36.33:694][ 70]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.04-00.36.33:694][ 70]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.04-00.36.33:694][ 70]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.04-00.36.33:694][ 70]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.04-00.36.33:694][ 70]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.04-00.36.33:694][ 70]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.04-00.36.33:694][ 70]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.10.04-00.37.38:659][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
