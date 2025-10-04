@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class BlockoutToolsEditorPlugin : ModuleRules
+public class BlockoutToolsPlugin : ModuleRules
 {
-	public BlockoutToolsEditorPlugin(ReadOnlyTargetRules Target) : base(Target)
+	public BlockoutToolsPlugin(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
@@ -42,8 +42,7 @@ public class BlockoutToolsEditorPlugin : ModuleRules
                 "UnrealEd",
                 "Projects",
                 "PlacementMode",
-                "BlockoutToolsPlugin",
-				// ... add private dependencies that you statically link with here ...	
+               // ... add private dependencies that you statically link with here ...	
 			}
 			);
 		
